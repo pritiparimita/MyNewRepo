@@ -1,0 +1,7 @@
+apiServer: v1
+kind: Secret
+metadata: 
+  name:my-sa-token
+  annotation:
+     kubernetes.io/service-account.name: my-sa
+type: kubernetes.io/service-account-token
